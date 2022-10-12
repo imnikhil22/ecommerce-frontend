@@ -1,0 +1,49 @@
+.review-form-container {
+  width: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+.review-form-container .review-form-header {
+  background-color: goldenrod;
+  border-radius: 5px;
+  padding: 5px 15px 5px;
+}
+.review-form-container form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.review-form-container form .review-input-set {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.review-form-container form .review-form-label {
+  font-size: 24px;
+}
+.review-form-container form .review-form-input {
+  width: 70%;
+  height: 25px;
+  border-radius: 8px;
+}
+.review-form-container form .review-form-button {
+  display: block;
+  width: 25%;
+  height: 35px;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 7px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}

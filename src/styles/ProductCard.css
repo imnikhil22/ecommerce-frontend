@@ -1,0 +1,22 @@
+.card {
+  border: 1px solid black;
+  max-width: 350px;
+  border-radius: 3px;
+  transition-duration: 200ms;
+  min-height: 40vh;
+  margin: 20px;
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+.card .bottle-info {
+  padding: 5px;
+}
+.card .price-text {
+  font-weight: bold;
+}
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 5px 0.05px rgb(124, 124, 124);
+}

@@ -1,0 +1,25 @@
+.reviews-align-box .reviews-header {
+  background-color: goldenrod;
+  border-radius: 5px;
+  padding: 5px 15px 5px;
+}
+.reviews-align-box {
+  width: 50%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+.rating {
+  width: 80%;
+}
+.rating .rating-set {
+  padding: 1px;
+}
+.rating .rating-set p {
+  display: inline;
+}
+
+.rating .rating-set h4 {
+  display: inline;
+}

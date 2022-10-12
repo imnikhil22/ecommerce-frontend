@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header button {
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 7px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}

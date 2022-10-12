@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.product-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-container .bottle-img {
+  flex: 1;
+  /* width: 50%; */
+  /* height: 100%; */
+}
+.product-container .bottle-img img {
+  width: 100%;
+  height: auto;
+}
+.product-container .bottle-info {
+  margin-left: 40px;
+  flex: 1;
+}
+.product-container .bottle-info .variants-color {
+  display: flex;
+}
+.product-container .bottle-info .variants-color .button {
+  border: none;
+  padding: 20px;
+  border-radius: 0.4em;
+  margin: 0.2em;
+  width: 10px;
+  transition-duration: 300ms;
+}
+.product-container .bottle-info .variants-color .button:hover {
+  border: 0.2px solid black;
+  cursor: pointer;
+}
+
+.product-container button {
+  margin-top: 10px;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 7px;
+}
+.reviews-container {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+}
